@@ -1,7 +1,6 @@
 # Terraform Configuration for AWS Networking Setup
 
-This repository contains Terraform configurations to set up networking resources in AWS across multiple accounts. This README will guide you through configuring and using these Terraform files.
-
+This repository contains Terraform configurations to set up networking resources in AWS across multiple accounts. The configurations include setting up networking resources such as VPCs, subnets, route tables, and connecting multiple AWS accounts using a transit gateway.
 ## Prerequisites
 
 Before you begin, make sure you have:
