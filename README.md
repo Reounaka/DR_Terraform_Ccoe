@@ -80,4 +80,35 @@ variable "production_account_subnet_id" {
   default     = "YOUR_PRODUCTION_SUBNET_ID_HERE"
 }
 ```
+#### 3. Initializing Terraform**
+Run the following command to initialize Terraform:
+```
+terraform init
+```
 
+#### 4. Reviewing and Applying Changes**
+Review the Terraform plan to ensure it will create the desired resources:
+```
+terraform plan
+```
+If everything looks good, apply the changes:
+```
+terraform apply
+```
+## Customization
+
+You may need to customize the Terraform files further based on your specific requirements. Refer to the variables.tf file for configurable options.
+
+## Cleaning Up
+
+To destroy the resources created by Terraform, run:
+```
+terraform destroy
+```
+## Contributing
+
+If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MPL-2.0 License. See the LICENSE file for details.
