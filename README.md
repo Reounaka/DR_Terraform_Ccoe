@@ -26,7 +26,7 @@ In this file, you should provide:
 
 Example of `terraform.tfvars`:
 
-```hcl
+```
 # AWS access and secret keys for three accounts
 aws_network_account_key = "YOUR_NETWORK_ACCOUNT_ACCESS_KEY"
 aws_network_account_secret_key = "YOUR_NETWORK_ACCOUNT_SECRET_KEY"
@@ -37,7 +37,7 @@ aws_production_account_secret_key = "YOUR_PRODUCTION_ACCOUNT_SECRET_KEY"
 
 # Specify the AWS region
 aws_region = "il-central-1"
-
+```
 
 #### 1. `variables.var`
 
