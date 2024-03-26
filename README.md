@@ -51,32 +51,33 @@ Example of variables.tf:
 variable "transit_gateway_arn" {
   description = "The ARN of the existing transit gateway."
   type        = string
-  default = "arn:aws:ec2:REGION::transit-gateway/tgw-"
+  default     = "YOUR_TRANSIT_GATEWAY_ARN_HERE"
 }
 
 variable "transit_gateway_id" {
   description = "The ID of the existing transit gateway."
   type        = string
-  default = ""
+  default     = "YOUR_TRANSIT_GATEWAY_ID_HERE"
 }
 
 variable "backup_account_vpc_id" {
-  description = "ID of the existing VPC in the second account"
-  default = "vpc "
+  description = "ID of the existing VPC in the backup account"
+  default     = "YOUR_BACKUP_VPC_ID_HERE"
 }
 
 variable "backup_account_subnet_id" {
-  description = "ID of the existing subnet in the second account"
-  default = ""
+  description = "ID of the existing subnet in the backup account"
+  default     = "YOUR_BACKUP_SUBNET_ID_HERE"
 }
 
 variable "production_account_vpc_id" {
-  description = "ID of the existing VPC in the third account"
-  default = ""
+  description = "ID of the existing VPC in the production account"
+  default     = "YOUR_PRODUCTION_VPC_ID_HERE"
 }
 
 variable "production_account_subnet_id" {
-  description = "ID of the existing subnet in the third account"
-  default = ""
+  description = "ID of the existing subnet in the production account"
+  default     = "YOUR_PRODUCTION_SUBNET_ID_HERE"
 }
 ```
+
