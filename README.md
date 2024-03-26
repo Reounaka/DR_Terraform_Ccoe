@@ -7,7 +7,9 @@ This repository contains Terraform configurations to set up networking resources
 Before you begin, make sure you have:
 
 - [Terraform](https://www.terraform.io/downloads.html) installed.
-- AWS credentials with sufficient permissions.
+- AWS credentials with sufficient permissions (for 3 accounts: Network,Backup,Production).
+- VPC and Subnets for Backup & Production accounts.
+- Transit Gateway ARN + ID
 
 ## Configuration
 
@@ -34,4 +36,6 @@ aws_production_account_access_key = "YOUR_PRODUCTION_ACCOUNT_ACCESS_KEY"
 aws_production_account_secret_key = "YOUR_PRODUCTION_ACCOUNT_SECRET_KEY"
 
 # Specify the AWS region
-aws_region = "tlv"
+aws_region = "il-central-1"
+
+
