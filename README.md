@@ -6,10 +6,12 @@ This repository contains Terraform configurations to set up networking resources
 
 Before you begin, make sure you have:
 
-- [Terraform](https://www.terraform.io/downloads.html) installed.
-- AWS credentials with sufficient permissions (for 3 accounts: Network,Backup,Production).
+
+- AWS Credentials: You need valid AWS credentials with appropriate permissions to create networking resources in AWS accounts (Network,Backup,Production).
+- Terraform Installed: Ensure Terraform is installed on your local machine. You can download Terraform from the official website and follow the installation instructions.
 - VPC and Subnets for Backup & Production accounts.
 - Transit Gateway ARN + ID
+- AWS CLI (Optional): Having AWS CLI installed can be helpful for configuring AWS credentials and verifying resources.
 
 ## Configuration
 
