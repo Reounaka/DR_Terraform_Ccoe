@@ -37,7 +37,8 @@ aws_production_account_secret_key = "YOUR_PRODUCTION_ACCOUNT_SECRET_KEY"
 
 # Specify the AWS region
 aws_region = "il-central-1"
-```hcl
+`
+
 
 #### 1. `variables.var`
 
