@@ -138,7 +138,7 @@ resource "aws_ec2_transit_gateway_vpc_attachment" "second" {
   }
 }
 
-# Create the VPC attachment in the second account...
+# Create the VPC attachment in the third account...
 resource "aws_ec2_transit_gateway_vpc_attachment" "third" {
   provider = aws.third
 
